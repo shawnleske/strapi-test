@@ -13,3 +13,5 @@ module.exports = ({ env }) => ({
     },
   },
 });
+
+console.log(env('DATABASE_URI'), env('DATABASE_NAME'));
