@@ -8,7 +8,7 @@ module.exports = ({ env }) => ({
         database: env('DATABASE_NAME')
       },
       options: {
-        ssl: false,
+        ssl: true,
       },
     },
   },
