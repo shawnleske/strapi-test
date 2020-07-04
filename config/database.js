@@ -8,10 +8,8 @@ module.exports = ({ env }) => ({
         database: env('DATABASE_NAME')
       },
       options: {
-        ssl: true,
+        ssl: false,
       },
     },
   },
 });
-
-console.log(env('DATABASE_URI'), env('DATABASE_NAME'));
