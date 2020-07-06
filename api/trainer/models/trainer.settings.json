@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trainers",
+  "info": {
+    "name": "Trainer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "Trainer",
+        "CoTrainer",
+        "Torwarttrainer",
+        "Betreuer"
+      ]
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Tel": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    }
+  }
+}
